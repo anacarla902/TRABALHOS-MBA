@@ -1,0 +1,24 @@
+cmd 
+git clone https://github.com/anacarla902/TRABALHOS-MBA.git
+		criaria uma pasta no diretorio que eu estiver (no caso, desktop)
+
+cd "NOME DA PASTA CLONADA" -> Coloca a primeira letra e aperta tab
+		criaria uma pasta e ficará assim=> C:\Users\logonrmlocal\Desktop\TRABALHOS-MBA>
+
+start . (abre a pasta como se fosse clique duplo nela)
+
+-> copia e cola o arquivo dentro da pasta (control c, control v)
+
+
+----------
+git add .
+		vai adicionar no git tudo que estiver na pasta
+
+git commit -m "subindo arq"
+
+git push
+	-> logar no git
+
+
+* se quiser juntar os comandos, colocar && entre eles, na mesma linha
+	git add . && git commit -m "Como subir pro GIT" && git push
