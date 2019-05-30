@@ -1,0 +1,6 @@
+No desktop > Git bash here > git clone https:github.com/anacarla902........ (pegar o caminho da pasta no git) 
+--> Control c control v das pastas que deseja copiar dentro da pasta clonada no desktop
+cd "nome da pasta clonada no desktop"
+git add .
+git commit -m "first commit"
+git push
